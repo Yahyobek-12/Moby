@@ -1,0 +1,114 @@
+.home {
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+}
+
+
+.home-top {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.home-top img {
+    width: 100px;
+    height: 65px;
+}
+
+.home-top h1 {
+    background: linear-gradient(65deg, rgb(135, 207, 255), #4daeef, #2970ff);
+    color: transparent;
+    background-clip: text;
+}
+
+.home-top h2 {
+    color: #ccc;
+    font-size: 30px;
+}
+
+.home-cards {
+    width: 100%;
+    height: 210px;
+    padding: 10px;
+    display: flex;
+    margin-top: 3rem;
+    align-items: enter;
+    justify-content: center;
+}
+
+.in-home-cards {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.home-card {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    color: #fff;
+    transition: .3s;
+    position: relative;
+    border-radius: 20px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #92d2fc, #2970ff);
+}
+
+.home-card:hover {
+    opacity: 0.6;
+    transition: .3s;
+    box-shadow: 1px 1px 10px #2970ff;
+}
+
+.home-card-icon {
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    position: absolute;
+}
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 1300px) {
+    .in-home-cards {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .home-cards {
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .in-home-cards {
+        height: 300px;
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .in-home-cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .home-card {
+        width: 100%;
+        height: 150px;
+        margin-top: 1rem;
+    }
+
+    .home-top h2 {
+        font-size: 20px;
+    }
+}
