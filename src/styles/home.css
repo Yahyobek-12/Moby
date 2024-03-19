@@ -7,6 +7,10 @@
     position: fixed;
 }
 
+@font-face {
+    font-family: mobyFont;
+    src: url(../Images/AndroidAssassinItalic-odzd.ttf);
+}
 
 .home-top {
     width: 100%;
@@ -27,6 +31,7 @@
     background: linear-gradient(65deg, rgb(135, 207, 255), #4daeef, #2970ff);
     color: transparent;
     background-clip: text;
+    font-family: mobyFont;
 }
 
 .home-top h2 {
