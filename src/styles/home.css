@@ -32,6 +32,7 @@
 .home-top h2 {
     color: #ccc;
     font-size: 30px;
+    margin-top: 1rem;
 }
 
 .home-cards {
@@ -75,6 +76,14 @@
     bottom: 10px;
     font-size: 40px;
     position: absolute;
+}
+
+.home-card button {
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+    border-radius: 20px;
+    background: linear-gradient(-45deg, #92d2fc, #2970ff);
 }
 
 /* ANIMATE tRANSITION */
