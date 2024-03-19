@@ -1,3 +1,4 @@
+import 'animate.css';
 import '../styles/home.css'
 import logo from '../Images/Moby.png'
 import { Link } from 'react-router-dom'
@@ -19,19 +20,19 @@ const Home = () => {
 
       <div className="home-cards">
         <div className="in-home-cards">
-          <div className="home-card">
+          <div className="home-card animate__animated animate__fadeInUp">
             <h3>Generate 3D Images With Moby AI Alse For Free</h3>
             <FcStackOfPhotos className='home-card-icon' />
           </div>
-          <div className="home-card">
+          <div className="home-card animate__animated animate__fadeInUp">
             <h3>Give Answer Using Mickrophone For Moby AI</h3>
             <PiMicrophoneDuotone className='home-card-icon' />
           </div>
-          <div className="home-card">
+          <div className="home-card animate__animated animate__fadeInUp">
             <h3>Translate World Sentences Using Moby AI</h3>
             <FaLanguage className='home-card-icon' />
           </div>
-          <div className="home-card">
+          <div className="home-card animate__animated animate__fadeInUp">
             <h3>Know The Wolrd News In Moby AI</h3>
             <FcNews className='home-card-icon' />
           </div>

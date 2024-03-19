@@ -77,6 +77,25 @@
     position: absolute;
 }
 
+/* ANIMATE tRANSITION */
+
+.animate__animated.animate__fadeInUp:nth-child(1) {
+    --animate-duration: 0.5s;
+}
+
+.animate__animated.animate__fadeInUp:nth-child(2) {
+    --animate-duration: 1s;
+}
+
+.animate__animated.animate__fadeInUp:nth-child(3) {
+    --animate-duration: 1.5s;
+}
+
+.animate__animated.animate__fadeInUp:nth-child(4) {
+    --animate-duration: 2s;
+}
+
+
 /* MEDIA SCREEN */
 
 @media only screen and (max-width: 1300px) {
@@ -110,5 +129,12 @@
 
     .home-top h2 {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .in-home-cards {
+        height: 420px;
+        padding-bottom: 7rem;
     }
 }
