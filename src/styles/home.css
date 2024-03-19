@@ -135,6 +135,6 @@
 @media only screen and (max-width: 400px) {
     .in-home-cards {
         height: 420px;
-        padding-bottom: 7rem;
+        padding-bottom: 1rem;
     }
 }
