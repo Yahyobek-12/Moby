@@ -110,16 +110,6 @@
     text-decoration: none;
 }
 
-.footer footer {
-    display: flex;
-    align-items: center;
-}
-
-.footer footer img {
-    width: 50px;
-    height: 40px;
-}
-
 /* ANIMATE tRANSITION */
 
 .animate__animated.animate__fadeInUp:nth-child(1) {

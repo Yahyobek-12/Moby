@@ -3,7 +3,6 @@ import '../styles/home.css'
 import logo from '../Images/Moby.png'
 import { Link } from 'react-router-dom'
 import Button from '@mui/material/Button'
-import thunder from '../Images/Thunder.gif'
 import { FaLanguage } from "react-icons/fa6";
 import { PiMicrophoneDuotone } from "react-icons/pi";
 import { FcStackOfPhotos, FcNews   } from "react-icons/fc";
@@ -45,10 +44,7 @@ const Home = () => {
       </div>
 
       <div className="footer">
-        <footer>
           <Link to="https://yahyobek-12.vercel.app/" target="_blank">From Yahyobek-12</Link>
-          <img src={thunder} alt="" />
-        </footer>
       </div>
     </div>
   )
