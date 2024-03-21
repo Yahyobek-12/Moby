@@ -101,6 +101,8 @@
     position: fixed;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     background: linear-gradient(-45deg, #92d2fc, #2970ff);
 }
 
@@ -162,6 +164,11 @@
 
     .home-top h2 {
         font-size: 20px;
+    }
+
+    .in-home-cards {
+        height: 420px;
+        padding-bottom: 3rem;
     }
 }
 

@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home, Navbar } from '../constants';
+import { Home, Navbar, Task } from '../constants';
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route path='/tasks' element={<Task />} />
       </Routes>
     </div>
   )

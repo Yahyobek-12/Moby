@@ -9,7 +9,7 @@
     align-items: center;
     background: #fff9;
     backdrop-filter: blur(5px);
-    position: fixed; z-index: 10;
+    position: fixed;
     justify-content: space-around;
 }
 
